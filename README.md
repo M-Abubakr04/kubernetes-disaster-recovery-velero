@@ -53,3 +53,10 @@ velero restore create --from-backup my-backup
 - Kubernetes backup strategies
 - Disaster recovery workflows
 - Cloud storage integration with S3
+
+## Backup via Cronjob
+We have created a script to take the backup which you can see in the repo file
+## How to run it
+chmod +x <script_name>
+         Or
+Run it as a cronjob
